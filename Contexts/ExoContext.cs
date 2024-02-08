@@ -19,11 +19,12 @@ namespace Exo.WebApi.Contexts
             if (!optionsBuilder.IsConfigured)
             {
                 // String de conexão
-                optionsBuilder.UseSqlServer("Server = localhost\\SQLEXPRESS;"
-                + "Database=ExoApi;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server = localhost\\SQLEXPRESS;Database=ExoApi;Trusted_Connection=True;");
 
             }
         }
         public DbSet<Projeto> Projetos { get; set; }
+
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }
