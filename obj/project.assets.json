@@ -7329,6 +7329,10 @@
       "path": "system.reflection.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net45/_._",
         "lib/portable-net45+win8+wp8+wpa81/_._",
@@ -8563,19 +8567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\rapha\\Desktop\\Atividade 05\\Exo.WebApi\\Exo.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\rapha\\Desktop\\Atividade 06\\Exo.WebApi\\Exo.WebApi.csproj",
       "projectName": "Exo.WebApi",
-      "projectPath": "C:\\Users\\rapha\\Desktop\\Atividade 05\\Exo.WebApi\\Exo.WebApi.csproj",
+      "projectPath": "C:\\Users\\rapha\\Desktop\\Atividade 06\\Exo.WebApi\\Exo.WebApi.csproj",
       "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rapha\\Desktop\\Atividade 05\\Exo.WebApi\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\rapha\\Desktop\\Atividade 4\\Exo.WebApi\\Exo.WebApi.csproj",
-      "projectName": "Exo.WebApi",
-      "projectPath": "C:\\Users\\rapha\\Desktop\\Atividade 4\\Exo.WebApi\\Exo.WebApi.csproj",
-      "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rapha\\Desktop\\Atividade 4\\Exo.WebApi\\obj\\",
->>>>>>> 6ca5aa4c2dba9df506ece64372f29a3f4b48f85f
+      "outputPath": "C:\\Users\\rapha\\Desktop\\Atividade 06\\Exo.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rapha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8651,5 +8647,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\rapha\\Desktop\\Atividade 06\\Exo.WebApi\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
